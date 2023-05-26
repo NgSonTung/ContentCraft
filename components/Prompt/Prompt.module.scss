@@ -25,11 +25,29 @@
   height: 100%;
   width: 100%;
 }
-.close {
-  fill: #d8d8d8b6;
+.close_icon {
+  fill: #bababab6;
   width: 2rem;
   height: 2rem;
+}
+.close_icon_wrapper {
   position: absolute;
   top: -1rem;
   right: -1rem;
+}
+.copy_icon_wrapper {
+  position: absolute;
+  top: -0.8rem;
+  right: -1rem;
+  width: 2rem;
+  height: 1.6rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #bababab6;
+  border-radius: 0.2rem;
+}
+.copy_icon {
+  fill: #ffffffdb;
+  width: 1.5rem;
+  height: 1.3rem;
 }

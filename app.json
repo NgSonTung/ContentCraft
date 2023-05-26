@@ -1,9 +1,5 @@
 {
   "expo": {
-    "packagerOpts": {
-      "config": "metro.config.js",
-      "sourceExts": ["js", "jsx", "scss", "sass"]
-    },
     "name": "ContentCraft",
     "slug": "ContentCraft",
     "version": "1.0.0",
@@ -23,10 +19,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ngsontung.ContentCraft"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": ["js", "jsx", "scss", "sass"]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8902b65b-4c60-4daa-9479-d39995382b3d"
+      }
     }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-2255363849786101~1908818087"
   }
 }

@@ -6,6 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Home />
+      <StatusBar hidden={true} />
     </View>
   );
 }
